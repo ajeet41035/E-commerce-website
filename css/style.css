@@ -1,0 +1,54 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.logo{
+    width: 5.5%;
+    height: 5.5%;
+}
+
+/* Ensure images cover the entire carousel */
+.carousel-item {
+   
+  
+    height: 400px;
+}
+.row{
+    margin-top: 10px;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 2px solid;
+    background-size: cover;
+}
+.footer{
+    color: white;
+}
+.navbar-nav li.nav-item {
+    text-align: center ;
+    justify-content: center;
+    font-size: 18px;
+}
+
+    
+      
+    
+    @media screen and (max-width: 768px) {
+        .waste {
+            font-size: 20px; /* Adjust the font size for tablets */
+        }
+    }
+    
+    /* Media query for screens with a maximum width of 480px (typical mobile size) */
+    @media screen and (max-width: 600px) {
+        .waste {
+            font-size: 18px; /* Adjust the font size for mobile devices */
+        }
+    }
+
+</style>
